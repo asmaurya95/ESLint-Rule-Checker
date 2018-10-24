@@ -1,0 +1,23 @@
+{
+  "name": "eslint-rule-checker",
+  "version": "1.0.0",
+  "description": "A script to check for ESLint rules which are out of date",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmaurya95/ESLint-Rule-Checker.git"
+  },
+  "author": "Ashutosh Maurya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asmaurya95/ESLint-Rule-Checker/issues"
+  },
+  "homepage": "https://github.com/asmaurya95/ESLint-Rule-Checker#readme",
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-find-rules": "^3.3.1"
+  }
+}
