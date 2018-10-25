@@ -11,7 +11,7 @@ function solve() {
   var cli = new CLIengine({
     useEslintrc: true,
   });
-  var config = cli.getConfigForFile(path + '/.'); // ESLint Config for the sample project
+  var config = cli.getConfigForFile(path); // ESLint Config for the sample project
   console.log('\nDeprecated/Removed rules still being used in the project:\n');
   for (rule in config.rules) {
     var ruleSrc = allRules.get(rule);
